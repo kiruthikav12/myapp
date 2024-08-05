@@ -1,0 +1,76 @@
+.signup-page {
+  max-width: 400px;
+  margin: 250px auto; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-type-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-type-selection button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.user-type-selection button:hover {
+  background-color: #0056b3;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,132 @@
+/* Specialities.css */
+
+.specialities-container {
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.specialities-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.specialities-container p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.specialities-wrapper {
+  position: relative;
+  width: 80%; /* Adjust based on the width of your container */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.specialities-grid {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  width: max-content; /* Ensures the grid expands horizontally */
+}
+
+.speciality-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  min-width: 200px;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speciality-card:hover {
+  transform: translateY(-10px);
+}
+
+.speciality-icon {
+  width: 100px; /* Set equal width and height for round shape */
+  height: 100px; /* Set equal width and height for round shape */
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* Make the icon round */
+}
+
+.icon-general-physician {
+  background-image: url('D:\SEM5\Doctor Consultant\myapp\images\Stethescope.jpeg');
+}
+
+.icon-dermatology {
+  background-image: url('D:/SEM5/Doctor Consultant/myapp/images/Dermatology.jpeg');
+}
+
+.icon-psychiatry {
+  background-image: url('D:\SEM5\Doctor Consultant\myapp\images\psych.jpeg');
+}
+
+.icon-stomach-digestion {
+  background-image: url('D:\SEM5\Doctor Consultant\myapp\images\stomach.jpeg');
+}
+
+.icon-pediatrics {
+  background-image: url('D:\SEM5\Doctor Consultant\myapp\images\teddy.jpeg');
+}
+
+.icon-urology {
+  background-image: url('D:\SEM5\Doctor Consultant\myapp\images\urology.jpeg');
+}
+.icon-gynocology {
+  background-image: url('D:\SEM5\Doctor Consultant\myapp\images\Gyno.jpeg');
+}
+
+.speciality-details {
+  text-align: center;
+}
+
+.speciality-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.speciality-price {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.consult-now {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.consult-now:hover {
+  text-decoration: underline;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-btn.left {
+  left: 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+}
+

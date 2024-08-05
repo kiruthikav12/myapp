@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  .formBox {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 1em;
+  }
+  
+  .input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .cancelButton {
+    background-color: #dc3545;
+  }
+  

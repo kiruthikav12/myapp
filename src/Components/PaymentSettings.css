@@ -1,0 +1,109 @@
+.payment-settings-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid #007bff;
+    font-weight: bold;
+  }
+  
+  .content h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-list {
+    margin-bottom: 20px;
+  }
+  
+  .card-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .card-item img {
+    margin-right: 10px;
+    width: 40px;
+    height: auto; 
+}
+
+  
+  .remove-card-btn {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .card-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .card-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .card-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-card-btn {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-card-btn:hover {
+    background: #218838;
+  }
+  .pay-now-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pay-now-btn {
+  width: 100%;
+  padding: 10px;
+  background: #1a2d6c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pay-now-btn:hover {
+  background: #37a449;
+}
